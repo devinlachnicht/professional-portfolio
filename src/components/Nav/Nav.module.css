@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&display=swap');
 
 .Nav {
-    background: white;
+    background: rgb(248, 248, 248);
     height: 80px;
     width: 100%;
     position: fixed;
@@ -13,8 +13,13 @@
 }
 
 .Name {
-    padding-right: 820px;
+    padding-right: 660px;
     font-size: 25px;
+    
+}
+
+.Name:hover {
+    color:rgba(0, 0, 0, 0.649);
 }
 
 .Nav nav ul {
@@ -35,5 +40,5 @@
 }
 
 .Nav a:hover {
-    color:rgba(0, 0, 0, 0.774);
+    color:rgba(0, 0, 0, 0.649);
 }
